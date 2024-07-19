@@ -1,7 +1,6 @@
 
 import { readContactsFromFile ,writeContactsToFile} from '../utils/fileOperations.js';
 
-
 export const removeLastContact = async () => {
   const contacts = readContactsFromFile();
 
