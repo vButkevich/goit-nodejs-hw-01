@@ -1,9 +1,11 @@
 import {
-  readContactsFromFile,
+  // readContactsFromFile,
+  // writeContactsToFileAsync,
+  readContactsFromFileAsync,
 } from '../utils/fileOperations.js';
 
 export const countContacts = async () => {
-  const contacts = await readContactsFromFile();
+  const contacts = await readContactsFromFileAsync();
   return contacts.length;
 };
 

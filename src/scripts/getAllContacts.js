@@ -1,9 +1,10 @@
 import {
-    readContactsFromFile,
+    // readContactsFromFile,
+    readContactsFromFileAsync,
 } from '../utils/fileOperations.js';
 
 export const getAllContacts = async () => {
-    return await readContactsFromFile();
+    return await readContactsFromFileAsync();
 };
 
 console.log(await getAllContacts());
